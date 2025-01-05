@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://z";
+            const url = "https://auth-mern-app-api-silk.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
